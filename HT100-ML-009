@@ -1,0 +1,63 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPcglXzbf3c4E89K/HD+xGW",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/yadavallicharishma3-art/charishma-demo/blob/main/HT100-ML-009\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import os\n",
+        "import random\n",
+        "import shutil\n",
+        "import torch\n",
+        "import torch.nn as nn\n",
+        "from torch.utils.data import Dataset, DataLoader\n",
+        "from torchvision import transforms, models\n",
+        "from PIL import Image\n",
+        "import matplotlib.pyplot as plt\n",
+        "import numpy as np\n",
+        "import pandas as pd"
+      ],
+      "metadata": {
+        "id": "HDQr-nvcWMAC"
+      },
+      "execution_count": 3,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from torchvision.datasets import ImageFolder\n",
+        "datasetpath="
+      ],
+      "metadata": {
+        "id": "w6Uh6_QY5g6Y"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
